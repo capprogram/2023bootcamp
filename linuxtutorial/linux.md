@@ -36,5 +36,5 @@ Most of you will not have a linux (or a linux virtual machine) installed on your
 
 In both of these applications, right-clicking on the window gives access to a copy-paste menu, which should also remind you of the keyboard shortcuts for these commands:
 
-    * Mac: ctrl-shift-c and ctrl-shift-v
+    * Mac: cmd-c and cmd-v
     * Win: ctrl-insert and shift-insert
