@@ -7,7 +7,7 @@ This tutorial can be completed either online in a browser or locally on your own
 To complete this tutorial ONLINE IN A BROWSER, you can use the Binder environment.
 1) If you don't have Binder already loaded up, go to https://mybinder.org/ and enter the url "https://github.com/capprogram/2023bootcamp" into the github repo line and press "launch"
 2) It can take up to 5 minutes to load the boot camp repo into Binder
-3) After it is loaded, use the file explorer on the left to open the `ExploreEco.ipynb` file in the `explorejupyternotebooks` folder
+3) After it is loaded, use the file explorer on the left to open the `ExploreECO.ipynb` file in the `explorejupyternotebooks` folder
 4) You can run or re-run individual cells in the notebook by clicking on them and typing Ctrl-Enter. 
 
 To complete this tutorial LOCALLY ON YOUR OWN LAPTOP, you will need to have Anaconda Python installed. (See Part I of [this tutorial](https://github.com/capprogram/2023bootcamp/blob/master/basic_data_analysis_tutorial/python-data-analysis.md).) 
