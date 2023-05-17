@@ -23,7 +23,7 @@ def gaussfunc(xvals, mean, sigma):
     return y
 
 U = 8. # underlying rate of gym users per hour
-Nct = np.array([6, 36, 216, 1296]) # total number of people counted (powers of 6)
+Nct = np.array([6, 36, 216, 1296]) # typical total number of people counted (powers of 6)
 nhr = Nct/U # time to count this many people
 #labelarr = ["count for %s hr" % ihr for ihr in nhr]
 
