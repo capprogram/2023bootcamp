@@ -4,6 +4,8 @@ We will be using [John Wu's github demo of convolutional neural networks](https:
 
 Prior to following the instructions below, note that some people are having issues with running the current iteration of the "Metallicity prediction demo.ipynb" from start to finish. If you start to move through the tutorial that comes with the instructions below and run into issues that seem like certain functions cannot be called or fail to work, consider downloading [this more updated version of the tutorial](https://colab.research.google.com/github/jwuphysics/convnet-demo/blob/colab/notebook/Metallicity%20prediction%20demo.ipynb) 
 
+If you run into an issue where it says "ImageList" not defined, then you must include the line `!pip install fastai==1.0.61` at the very top of the first cell. Once the first cell finishes running, go to the top toolbar and press Runtime -> Restart Runtime. 
+
 To run this tutorial:
 * We will be using a version of the tutorial that I had on my harddrive. First, download the .zip file in this repository and then upload it to your google drive.
 * Then, extract it in Google Drive using the "Zip Extractor" app. This step may take 10+ minutes. (you must do it this way as google drive doesn't like when you upload more than 100 files at once, and there are a lot of small images)
