@@ -153,10 +153,10 @@ The final version of your program file should contain only successful commands a
 
 ## Part III: Reading and Plotting Data
 
-First, download [testdata.in](http://user.physics.unc.edu/~sheila/testdata.in) into the directory where you keep your python files -- this should be the same one where you put `tutorialanswers_yournamehere.py` earlier. Reading the data is now simple: just type
+First, download [testdata.txt](http://user.physics.unc.edu/~sheila/testdata.txt) into the directory where you keep your python files -- this should be the same one where you put `tutorialanswers_yournamehere.py` earlier. Reading the data is now simple: just type
 
 ```python
-data=np.loadtxt(r"XXXXtestdata.in")
+data=np.loadtxt(r"XXXXtestdata.txt")
 ```
 
 where `XXXX` should be replaced with the path to your file (displayed at the top of the Editor Window if you put your program and data files in the same place as instructed). An example might be `C:\My Documents\Python Scripts\`. The extra `r` in front of the path and filename is necessary to force python to interpret the information literally. To directly figure out the path of the file you just downloaded, you can open the downloaded file in Spyder by going to File -> Open, and then finding the file using a file explorer. Once the file is open, the path of the file displayed above the Editor Window is what you want to copy in exactly between the quotation marks of the `np.loadtxt` command above. Note that loadtxt *assumes* your data is in numeric form, so if there's a header with column names, you should remove that before reading.
