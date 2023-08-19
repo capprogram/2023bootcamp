@@ -150,7 +150,7 @@ The final version of your program file should contain only successful commands a
 
 ## Part III: Reading and Plotting Data
 
-First, download [testdata.txt](http://user.physics.unc.edu/~sheila/testdata.txt) into the directory where you keep your python files -- this should be the same one where you put `tutorialanswers_yournamehere.py` earlier. Reading the data is now simple: just type
+First, download [testdata.txt](http://user.physics.unc.edu/~sheila/testdata.txt) into the directory where you keep your python files -- this should be the same one where you put `tutorialanswers_yournamehere.py` earlier. If the data file opens in your browser, right click on the page and "save as" 'testdata.txt'. Reading the data is now simple: just type
 
 ```python
 data=np.loadtxt(r"XXXXtestdata.txt")
